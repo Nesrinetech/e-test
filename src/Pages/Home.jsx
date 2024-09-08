@@ -1,8 +1,7 @@
 import React from 'react'
 import './Home.css';
-import Popular from '../Components/Popular/Popular'; // Import Popular
 import Browse from '../Components/Browse/Browse';
-import NewCollections from '../Components/NewCollections/NewCollections';
+ 
 
 
 const Home = () => {
@@ -41,9 +40,9 @@ const Home = () => {
 
         </div>
 
-        <Popular />
+     
         <Browse />
-        <NewCollections/>
+      
 
 
 
