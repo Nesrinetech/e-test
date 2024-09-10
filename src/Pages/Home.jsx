@@ -5,7 +5,7 @@ import Browse from '../Components/Browse/Browse';
 import NewCollections from '../Components/NewCollections/NewCollections';
 
 
-const Home = () => {
+const Home = () => { 
   return (
     <div className='home'>
         <div className="home-left">

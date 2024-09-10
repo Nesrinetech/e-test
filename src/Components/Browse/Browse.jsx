@@ -10,7 +10,7 @@ const Browse = () => {
     <div className="Browse">
         <div className="Browse-left">
             <h1>BROWSE BY DRESS STYLE</h1>
-            <img className="Causal" src={Casual} alt="Casual"/>
+            <img className="Casual" src={Casual} alt="Casual"/>
             <img className="Formal" src={Formal} alt="Formal"/>
             <img className="Party" src={Party} alt="Party"/>
             <img className="Gym" src={Gym} alt="Gym"/>

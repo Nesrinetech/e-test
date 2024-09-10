@@ -21,7 +21,7 @@ padding: 20px;
     /* BROWSE BY dress STYLE */
 
  display: flex;
- 
+ flex-wrap: wrap;
 
 font-family: 'Integral CF';
 font-style: normal;
@@ -62,7 +62,7 @@ color: #000000;
 
 }
 
-.Causal {
+.Casual {
     /* Frame 61 */
 
 position: absolute;
@@ -117,3 +117,120 @@ background: #FFFFFF;
 border-radius: 20px;
 
 }
+
+
+@media (max-width: 768px) {
+
+     .Browse {
+        /* Frame 104 */
+
+position: absolute;
+width: 358px;
+height: 975px;
+left: 16px;
+top: 3417px;
+
+background: #F0F0F0;
+border-radius: 20px;
+
+     }
+
+ 
+
+     .Browse-left h1 {
+        /* BROWSE BY dress STYLE */
+
+position: absolute;
+width: 246px;
+height: 72px;
+left: calc(50% - 246px/2);
+top: 40px;
+
+font-family: 'Integral CF';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+     }
+
+     .Casual {
+       
+       /* Frame 105 */
+
+position: absolute;
+width: 310px;
+height: 190px;
+left: calc(50% - 310px/2);
+top: 140px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+
+     }
+
+     .Formal {
+        /* Frame 106 */
+
+position: absolute;
+width: 310px;
+height: 190px;
+left: calc(50% - 310px/2);
+top: 346px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+     }
+     .Party {
+        /* Frame 107 */
+
+position: absolute;
+width: 310px;
+height: 190px;
+left: calc(50% - 310px/2);
+top: 552px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+     }
+
+     .Gym {
+        /* Frame 108 */
+
+position: absolute;
+width: 310px;
+height: 190px;
+left: calc(50% - 310px/2);
+top: 758px;
+
+background: #FFFFFF;
+border-radius: 20px;
+
+     }
+}
+
+
+/* 
+@media (max-width: 480px) {
+    .Browse-left h1 {
+        font-size: 24px;
+       
+    }
+
+    .Casual, .Formal, .Party, .Gym {
+        width: 100%;
+      
+    }
+
+
+} */

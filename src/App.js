@@ -6,6 +6,7 @@ import Shop from './Pages/Shop';
 import Popular from './Components/Popular/Popular';
 import Browse from './Components/Browse/Browse';
 import Product from './Pages/Product';
+import Cart from './Pages/Cart';
  
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
         <Route path='/Shop' element={<Shop />}/>
         <Route path='/Popular' element={<Popular />}/>
         <Route path='/Product' element={<Product />}/>
-        <Route path='/:productId' element={<Product />}/>
- 
+        <Route path='/product/:productId' element={<Product />}/>
+        <Route path='/Cart' element={<Cart />}/>
+        
         <Route path='/Browse' element={<Browse />}/>
  
 
